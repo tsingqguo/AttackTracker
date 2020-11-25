@@ -60,27 +60,21 @@ CVPR. pp. 4586–4595 (2019).
 
 ## Installation
 
-This work is based on PyTorch and PySOT [https://github.com/STVIR/pysot].
+This work is based on PyTorch and PySOT [https://github.com/STVIR/pysot], pytracking [https://github.com/visionml/pytracking],  and pycftracking.
 
-Please first follow the installation of PySOT。
+Please first follow the installation of PySOT. 
 
-### run untargeted tracker
+### Experimental Scripts
 
-```bash
-cd experiments/siamrpn_r50_l234_dwxcorr
-python -u ../../tools/test.py 	\
-	--snapshot model.pth 	\ # model path
-	--dataset VOT2018 	\ # dataset name
-	--config config.yaml	  # config file
-```
-
-### run targeted tracker
+Please follow the bash codes in "./experiments" for the various results in our paper.
 
 ## Bibtex
 
-@Inproceedings{Li2018STRCF,
-title={Learning Spatial-Temporal Regularized Correlation Filters for Visual Tracking},
-author={Li, Feng and Tian, Cheng and Zuo, Wangmeng and Zhang, Lei and Yang, Ming Hsuan},
-booktitle={CVPR},
-year={2018},
+```
+@Inproceedings{Guo2020ECCV,
+title={SPARK: Spatial-aware Online Incremental Attack Against Visual Tracking},
+author={Qing Guo and Xiaofei Xie and Felix Juefei-Xu and Lei Ma and Zhongguo Li and Wanli Xue and Wei Feng and Yang Liu},
+booktitle={ECCV},
+year={2020},
 }
+```

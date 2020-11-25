@@ -76,7 +76,7 @@ python -u ../../tools/test.py 	\
 
 ### run targeted tracker
 
-##Bibtex
+## Bibtex
 
 @Inproceedings{Li2018STRCF,
 title={Learning Spatial-Temporal Regularized Correlation Filters for Visual Tracking},

@@ -1,6 +1,6 @@
 # SPARK
 
-**SPARK** is the first online adversarial attack against visual object tracking: online generating imperceptible perturbations that mislead trackers along with an incorrect (Untargeted Attack, UA) or
+**SPARK** [https://arxiv.org/abs/1910.08681] is the first online adversarial attack against visual object tracking: online generating imperceptible perturbations that mislead trackers along with an incorrect (Untargeted Attack, UA) or
 specified trajectory (Targeted Attack, TA).
 
 <div align="center">

@@ -1,0 +1,12 @@
+META_ARC: "STRCF"
+CUDA: True
+TRACK:
+    TYPE: 'CFTracker'
+
+ATTACKER:
+    METHOD: 'OIM'
+    SHOW: False
+
+CFTRACKING:
+    TRACKER_TYPE: 'STRCF'
+    SHOW: False

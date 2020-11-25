@@ -1,0 +1,12 @@
+META_ARC: "MOSSE"
+CUDA: True
+TRACK:
+    TYPE: 'CFTracker'
+
+ATTACKER:
+    METHOD: 'OIM'
+    SHOW: False
+
+CFTRACKING:
+    TRACKER_TYPE: 'MOSSE'
+    SHOW: False

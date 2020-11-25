@@ -1,0 +1,12 @@
+META_ARC: "BACF"
+CUDA: True
+TRACK:
+    TYPE: 'CFTracker'
+
+ATTACKER:
+    METHOD: 'OIM'
+    SHOW: False
+
+CFTRACKING:
+    TRACKER_TYPE: 'BACF'
+    SHOW: False
